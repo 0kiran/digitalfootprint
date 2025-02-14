@@ -1,0 +1,126 @@
+.App {
+  word-wrap: break-word;
+  color: #000;
+  width: 100vw;
+  height: 100vh;
+  font: 66.66667%;
+  font-family: "ヒラギノ角ゴシック", "Hiragino Sans", "ヒラギノ角ゴ ProN W3",
+    "HiraKakuProN-W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5em;
+  list-style-type: none;
+}
+
+#light {
+  background-color: #fff;
+}
+
+#dark {
+  background-color: #000;
+}
+
+#light .container {
+  background-color: #fff;
+}
+
+#dark .container {
+  background-color: #000;
+}
+
+h1 {
+  display: block;
+  font-size: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0px;
+  padding: 50px;
+}
+
+h5 {
+  text-align: right;
+}
+
+p {
+  display: block;
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.post {
+  display: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.posttext {
+  text-align: left;
+}
+
+.postdate {
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 70px;
+}
+
+#light h1,
+#light h5,
+#light p {
+  color: black;
+}
+
+#dark h1,
+#dark h5,
+#dark p {
+  color: white;
+}
+
+.spotifyembed {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.scembed {
+  width: 100%;
+}
+
+.switch {
+  display: block;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light .switch label {
+  color: black;
+}
+
+#dark .switch label {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.twt {
+  display: flex;
+  position: absolute;
+  margin: 20px;
+  bottom: 0;
+  align-items: left;
+}
